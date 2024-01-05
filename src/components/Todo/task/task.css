@@ -1,0 +1,55 @@
+.task-wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+.task {
+   display: flex;
+   padding: 20px 0;
+   gap: 10px;
+   align-items: center;
+   font-size: 22px;
+}
+.task-userActions {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+button {
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+.remove-task,
+.edit-task {
+   color: #383838;
+} 
+
+/* Add-Task*/
+
+.add-task {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
+}
+.add-task__input {
+   width: 500px;
+   height: 30px;
+   border-radius: 8px;
+   padding: 5px;
+   background: none;
+   border: none;
+   border-bottom: 1px solid #383838;
+   font-size: 18px;
+   color: #383838;
+   letter-spacing: 0.3px;
+}
+.add-task__btn {
+   width: 100px;
+   height: 35px;
+   text-align: center;
+   border-radius: 4px;
+   border: 1px solid #383838;
+   margin-right: 12px;
+   font-size: 18px;
+}

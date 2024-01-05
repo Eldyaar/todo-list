@@ -1,0 +1,13 @@
+.task__checkBlock {
+   border: 2px solid #383838;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20px;
+   height: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.task__check {
+   color: #383838;
+}

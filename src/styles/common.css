@@ -1,0 +1,7 @@
+html {
+   position: relative;
+   background: linear-gradient(to right, #00bfff, #00ff00);
+}
+body {
+   background: inherit;
+}
